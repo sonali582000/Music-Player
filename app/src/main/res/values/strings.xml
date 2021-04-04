@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Equalizer</string>
+
+    <string name="Alex">Alex Music</string>
+    <string name="Blow">Say So</string>
+    <string name="Aua">Doja Cat</string>
+    <string name="one">0.25</string>
+    <string name="two">-0.25</string>
+
+
+</resources>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Lyrics">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageButton
+            android:onClick="goBack"
+            android:id="@+id/back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:scaleType="fitXY"
+            android:gravity="center"
+            android:layout_gravity="left"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <ImageButton
+            android:id="@+id/b1"
+            android:layout_width="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="150dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:src="@drawable/b1" />
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Say So (Lyrics)"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/linear1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/t1"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Day to night to morning, keep with me in the moment
+I'd let you had I known it, why don't you say so?
+Didn't even notice, no punches left to roll with
+You got to keep me focused, you want it, say so
+Day to night to morning, keep with me in the moment
+I'd let you had I known it, why don't you say so?
+Didn't even notice, no punches left to roll with
+You got to keep me focused, you want it, say so
+It's been a long time since you fell in love
+You ain't coming out your shell, you really ain't been yourself
+Tell me what must I do (do tell, my love)
+'Cause luckily I'm good at reading
+I wouldn't bug him, but he won't stop cheesin'
+And we can dance all day around it
+If you front then I'll be bouncing
+If you want it scream and shout it, babe
+Before I leave you dry
+Day to night to morning, keep with me in the moment
+I'd let you had I known it, why don't you say so?
+Didn't even notice, no punches left to roll with
+You got to keep me focused, you want it, say so
+Day to night to morning, keep with me in the moment
+I'd let you had I known it, why don't you say so?
+Didn't even notice, no punches left to roll with
+You got to keep me focused, you want it, say so (yeah)
+Let me check my chest, my breath right quick (ha)
+He ain't never seen it in a dress like this (ah)
+He ain't never even been impressed like this
+Prolly why I got him quiet on the set like zip
+Like it, love it, need it bad
+Take it, own it, steal it, fast
+Boy, stop playing, grab my ass
+Why you actin' like you shy?
+Shut it, save it, keep it, pushin'
+Why you beating 'round the bush?
+And knowing you want all this woman
+Never knock it 'til you try (yeah, yeah)
+All of them bitches hating I have you with me
+All of my niggas saying you mad committed
+Realer than anybody you had, and pretty
+All of that body-ody, the ass and titties
+Day to night to morning, keep with me in the moment
+I'd let you had I known it, why don't you say so?
+Didn't even notice, no punches left to roll with
+You got to keep me focused, you want it, say so
+Day to night to morning, keep with me in the moment
+I'd let you had I known it, why don't you say so?
+Didn't even notice, no punches left to roll with
+You got to keep me focused, you want it, say so"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
